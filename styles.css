@@ -1,0 +1,97 @@
+body {
+  background-color: #141414;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+.outer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.inner-container {
+  height: 612px;
+  width: 385px;
+  background-color: #1f1f1f;
+  border-radius: 15px;
+  text-align: center;
+  padding: 40px 0;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 400;
+}
+a{
+  text-decoration: none;
+
+}
+/* Header Section */
+.header-container {
+  margin-bottom: 25px;
+}
+.header-image {
+  border-radius: 90px;
+  height: 90px;
+  height: 90px;
+}
+.header-container > figcaption {
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+/* Buttons Section */
+
+.buttons-container > a > button {
+  width: 304px;
+  height: 46px;
+  border-radius: 10px;
+  background-color: #333333;
+  display: block;
+  margin: 15px auto;
+  border: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+}
+.buttons-container > a > button:hover{
+    background-color:hsl(75, 51%, 45%) ;
+}
+
+/* Footer Section */
+.footer-container {
+  position: absolute;
+  align-self: self-end;
+  text-align: center;
+  opacity: 0.5;
+  font-size: 12px;
+}
+.footer-icon{
+    vertical-align: middle;
+}
+/* Reponsiveness */
+@media  screen and (max-width:425px) {
+  .inner-container {
+    width: 350px;
+    height: 580px;
+   
+  }
+  .outer-container{
+    height: 100vh;
+    /* margin: 115px auto; */
+     /* The Mobile design looks like it has an overflow,
+      but I wasn't sure so I commented out the code 🙃  */
+  }
+  .buttons-container > a > button{
+    width: 50px;
+    box-sizing: border-box;
+    margin: 15px 0;
+
+  }
+  
+}
