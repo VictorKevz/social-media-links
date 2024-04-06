@@ -88,9 +88,9 @@ a{
       but I wasn't sure so I commented out the code 🙃  */
   }
   .buttons-container > a > button{
-    width: 50px;
+    width: 275px;
     box-sizing: border-box;
-    margin: 15px 0;
+    margin: 15px auto;
 
   }
   
