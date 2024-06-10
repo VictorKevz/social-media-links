@@ -1,17 +1,18 @@
 import React from "react";
 import Header from "./components/Header";
-import Buttons from "./components/Buttons";
+import Link from "./components/Link";
 import Footer from "./components/Footer";
+import "./App.css"
 
 function App() {
   return (
-    <div className="outer-container">
+    <main className="outer-container">
       <div className="inner-container">
         <Header />
-         <Buttons/>
+         <Link/>
       </div>
      <Footer/>
-    </div>
+    </main>
   );
 }
 
